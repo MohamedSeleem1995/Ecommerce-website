@@ -98,17 +98,6 @@ header {
     -o-transform: scale(1.1);
     opacity: 1;
 }
-.products .second-row .box img:not(.double-images img) {
-    height: 33.4375rem;
-}
-.double-images img {
-    height: calc((535px / 2) - 1.5rem);
-}
-@media(max-width: 47.9375rem) {
-    .double-images img {
-        height: auto;
-    }
-}
 .second-row .box:not(.third)::before,
 .second-row .third .double-images div:first-child::before,
 .second-row .third .double-images div:last-child::before {
